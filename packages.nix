@@ -11,7 +11,7 @@
       snowcrash
     ];
 
-    applePrincessPackages = pkgs.lib.mapAttrsToList (_: v: v) inputs.hackpkgs.packages.${pkgs.system};
+    # applePrincessPackages = pkgs.lib.mapAttrsToList (_: v: v) inputs.hackpkgs.packages.${pkgs.system};
 
     archive-tools = with pkgs; [
       cabextract
